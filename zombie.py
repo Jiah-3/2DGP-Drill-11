@@ -67,4 +67,6 @@ class Zombie:
                 game_world.remove_object(self)
             else:
                 self.y -= 50
+        elif group == 'boy:zombie':
+            pass
 
